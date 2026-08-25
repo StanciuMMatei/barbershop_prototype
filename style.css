@@ -1,4 +1,3 @@
-/* Resetare de bază */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   color: #f4f4f4;
 }
 
-/* Navigare */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,7 +26,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #d4af37; /* Auriu */
+  color: #d4af37;
 }
 
 .nav-links {
@@ -51,7 +49,6 @@ body {
   color: #d4af37;
 }
 
-/* Meniu mobil (Burger) */
 .burger {
   display: none;
   cursor: pointer;
@@ -65,7 +62,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Sectiunea Hero */
 .hero {
   height: 100vh;
   display: flex;
@@ -104,7 +100,6 @@ body {
   background-color: #b5952f;
 }
 
-/* Servicii */
 .services {
   padding: 80px 20px;
   text-align: center;
@@ -156,7 +151,6 @@ body {
   color: #d4af37;
 }
 
-/* Footer / Contact */
 footer {
   background-color: #0a0a0a;
   padding: 50px 20px 20px;
@@ -185,7 +179,6 @@ footer h2 {
   color: #777;
 }
 
-/* Responsivitate pentru ecrane mici (Telefoane) */
 @media screen and (max-width: 768px) {
   .nav-links {
     position: absolute;
